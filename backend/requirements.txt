@@ -1,0 +1,6 @@
+﻿fastapi==0.162.0
+uvicorn==0.54.0
+scikit-learn==1.9.1
+supabase==2.33.0
+postgrest==2.33.0
+python-dotenv==1.2.4
