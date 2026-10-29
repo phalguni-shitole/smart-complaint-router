@@ -25,7 +25,7 @@ export default function SubmitComplaintPage() {
 
         try {
             const response = await fetch(
-                "http://127.0.0.1:8000/complaints",
+                `${process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000"}/complaints`,
                 {
                     method: "POST",
                     headers: {
